@@ -96,8 +96,8 @@
 &kp EQUAL   &kp N1    &mt F1 N2  &mt F2 N3    &kp N4       &mt F5 N5                                                                                 &mt F7 NUMBER_6  &mt F8 N7  &mt F9 N8  &mt F11 N9  &mt F12 N0  &mt F10 MINUS
 &kp TAB     &kp Q     &kp W      &kp E        &kp R        &kp T                                                                                     &kp Y            &kp U      &kp I      &lt 5 O     &lt 8 P     &kp BSLH
 &kp ESC     &kp A     &kp S      &lt 3 D      &lt 2 F      &lt 4 G                                                                                   &kp H            &kp J      &kp K      &kp L       &kp SEMI    &kp SQT
-&kp GRAVE   &kp Z     &kp X      &kp C        &kp V        &kp B      &kp LSHFT           &kp LGUI  &layer_td  &kp LGUI  &kp RCTRL  &kp RSHFT        &kp N            &kp M      &kp COMMA  &kp DOT     &kp FSLH    &kp PG_UP
-&magic 1 0  &kp HOME  &kp END    &lt 6 LG(C)  &lt 7 LG(V)             &mt LGUI BACKSPACE  &kp DEL   &kp LALT   &kp RALT  &kp TAB    &mt ENTER SPACE                   &kp TAB    &kp LGUI   &kp LBKT    &kp RBKT    &kp PG_DN
+&kp GRAVE   &kp Z     &kp X      &kp C        &kp V        &kp B      &kp LSHFT           &kp LGUI  &layer_td  &trans    &kp RCTRL  &kp RSHFT        &kp N            &kp M      &kp COMMA  &kp DOT     &kp FSLH    &kp PG_UP
+&magic 1 0  &kp HOME  &kp LG(Z)  &lt 6 LG(C)  &lt 7 LG(V)             &mt LGUI BACKSPACE  &kp DEL   &kp LALT   &kp RALT  &kp TAB    &mt ENTER SPACE                   &kp TAB    &kp LGUI   &kp LBKT    &kp RBKT    &kp PG_DN
             >;
         };
 
@@ -186,17 +186,6 @@
 &trans  &trans  &trans  &trans                        &trans  &trans                                                  &trans                        &trans  &trans  &kp LS(LA(LC(LG(NUMBER_1))))  &trans  &trans
 &trans  &trans  &trans  &kp LS(LC(LA(LG(NUMBER_4))))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(LA(LG(NUMBER_3))))  &trans  &trans  &trans                        &trans  &trans
 &trans  &trans  &trans  &trans                        &trans          &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans  &trans                        &trans  &trans
-            >;
-        };
-
-        layer_10 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
