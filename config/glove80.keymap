@@ -92,12 +92,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp F1      &kp F2    &kp F3     &kp F4        &kp F5                                                                                                                           &kp F6                      &kp F7     &kp F8      &kp F9      &kp F10
-&kp EQUAL   &kp N1    &mt F1 N2  &mt F2 N3     &kp N4                      &mt F5 N5                                                                           &mt F7 NUMBER_6  &mt F8 N7                   &mt F9 N8  &mt F11 N9  &mt F12 N0  &mt F10 MINUS
-&kp TAB     &kp Q     &kp W      &kp E         &kp R                       &kp T                                                                               &kp Y            &kp U                       &kp I      &lt 5 O     &lt 8 P     &kp BSLH
-&kp ESC     &kp A     &kp S      &kp D         &kp F                       &kp G                                                                               &kp H            &kp J                       &kp K      &kp L       &kp SEMI    &kp SQT
-&kp GRAVE   &kp Z     &kp X      &kp C         &kp V                       &kp B      &kp LSHFT           &kp LGUI  &layer_td  &trans    &kp RCTRL  &kp RSHFT  &kp N            &kp M                       &kp COMMA  &kp DOT     &kp FSLH    &kp PG_UP
-&magic 1 0  &kp HOME  &kp LG(Z)  &kp LEFT_GUI  &kp LA(LC(LG(LEFT_SHIFT)))             &mt LGUI BACKSPACE  &kp F3    &kp LALT   &kp RALT  &kp ENTER  &kp SPACE                   &kp LA(LC(LG(LEFT_SHIFT)))  &kp LGUI   &kp ENTER   &kp RBKT    &kp PG_DN
+&none           &none         &none         &none         &none                                                                                                          &none   &none   &none      &none          &none
+&none           &none         &none         &none         &none         &none                                                                              &none         &none   &none   &none      &none          &none
+&kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                                                             &kp NUMBER_6  &kp N7  &kp N8  &kp N9     &kp N0         &kp MINUS
+&kp ESC         &kp Q         &kp W         &kp E         &kp R         &kp T                                                                              &kp Y         &kp U   &kp I   &kp O      &kp P          &kp NON_US_BACKSLASH
+&kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F         &kp G   &kp B               &none     &none    &trans   &none     &none            &kp H         &kp J   &kp K   &kp L      &kp SEMICOLON  &kp SQT
+&magic 1 0      &kp Z         &kp X         &kp C         &kp V                 &mt LGUI BACKSPACE  &kp CAPS  &kp TAB  &kp TAB  &kp CAPS  &mt ENTER SPACE                &kp N   &kp M   &kp COMMA  &kp PERIOD     &kp SLASH
             >;
         };
 
